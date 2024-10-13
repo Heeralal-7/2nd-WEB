@@ -7,7 +7,496 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="2ndWEB.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+      *{
+    margin: 0;
+    padding: 0;
+ }
+.nav{
+    display: flex;
+}
+.nav ul{
+    background-color: white;
+    overflow: auto;
+    margin-left: 45%;
+}
+.nav ul li{
+    float: left;
+    list-style: none;
+    margin: 35px 20px;
+    position: relative;
+} 
+.nav ul li a{
+  text-decoration: none;
+  padding: 10px 10px;
+  color: black;  
+}
+.btn{
+    float: right;
+    padding: 20px 90px 20px 10px;
+}
+button{
+    padding: 17px;
+    background-color: #ff8000;
+    color: white;
+    border: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    margin: -5px;
+    cursor: pointer;
 
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.headingTwo {
+text-align: center;
+font-size: 30px;
+font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+padding-top: 30px;
+padding-bottom: 20px;
+background-color: black;
+color: white;
+}
+
+
+
+
+
+.believe h1 {
+font-size: 100px;
+text-align: center;
+padding: 20px 40px;
+}
+.box4{
+    width: 100%;
+    display: flex;
+    padding-top: 5%;
+}
+.arrow{
+   width: 25%;
+   padding-left: 9%;
+
+}
+.arrow p {
+font-size: 26px;
+margin-left: -90px;
+padding-top: 20px;
+text-align: center;
+}
+.money {
+width: 25%;
+padding-left: 9%;
+}
+.money p {
+font-size: 26px;
+margin-left: -90px;
+padding-top: 20px;
+text-align: center;
+}
+.documents {
+width: 25%;
+padding-left: 9%;
+}
+.documents p {
+font-size: 26px;
+margin-left: -90px;
+padding-top: 30px;
+text-align: center;
+}
+.way {
+width: 25%;
+padding-left: 9%;
+}
+.way p {
+font-size: 26px;
+margin-left: -90px;
+padding-top: 20px;
+text-align: center;
+}    
+.schedule{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.schedule button {
+padding: 20px 80px;
+font-size: 30px;
+cursor: pointer;
+}
+.box5 {
+background-color: #56c8e2;
+margin-top: 80px;
+display: flex;
+height: 750px;
+}
+.box6 {
+padding-top: 100px;
+padding-left: 90px;
+width: 80%;
+}
+.box6 h1 {
+font-size: 70px;
+color:white;
+}
+.box6 p {
+padding-left: 0px;
+font-size: 40px;
+color:white;
+}
+.box6 button {
+padding: 20px 60px;
+margin-top: 20px;
+margin-left: 5px;
+font-size: 30px;
+}
+.blue2 {
+display: flex;
+}
+.blue2 img {
+padding-top: 100px;
+padding-left: 50px;
+height: 100px;
+width: 100px;
+}
+.heading h1 {
+color: white;
+padding: 100px 0px 0px 50px;
+}
+.heading p {
+color: white;
+padding: 10px 200px 0px 50px;
+font-size: 18px;
+line-height: 1.9em;
+}
+
+.blue3 img {
+padding-top: 70px;
+padding-left: 0px;
+height: 100px;
+width: 100px;
+margin-left: -95px;
+}
+.heading2 {
+margin-top: -200px;
+}
+.heading3 {
+margin-top: -200px;
+}
+.box7{
+background-image: url("https://omninos.shop/lifeManaged/bg.png");
+height: 650px;
+width: auto;
+background-size: cover;
+}
+.box7 img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 270px;
+}
+.financial{
+text-align: center;
+font-size: 30px;
+margin: 40px 70px 0px 70px;
+padding: 60px;
+
+
+}
+.financial p{
+color: #ff8000;
+text-align: center;
+font-size: 25px;
+padding-top: 20px;
+margin-left: -60px;
+font-weight: 800;
+letter-spacing: 0.04em;
+}   
+.bg2{
+background-image: url("https://omninos.shop/lifeManaged/bg2.png");
+height: 803px;
+
+
+}
+.bg2 h1{
+text-align: center;
+color: white;
+padding: 40px 0px 30px 0px;
+font-size: 80px;
+}
+.bg2 p{
+text-align: center;
+color: white;
+font-size: 30px;
+}
+.main3{
+display: flex;
+}
+.worked{
+width: 33.33%;
+
+height: 400px;
+margin-top: 20px;
+
+}
+
+.worked img{
+height: 200px;
+width: 200px;
+padding-left: 100px;
+padding-top: 20px;
+}
+.worked h2{
+color: black;
+padding: 5px 10px 10px 100px;
+}
+.worked p{
+padding: 0px 100px 10px 120px;
+font-size: 20px;
+}
+.btn-2{
+margin: 20px;
+padding: 20px 40px;
+
+
+border: 1px solid  orange;
+
+}
+button.btn-2 {
+margin: 20px;
+padding: 20px 40px;
+
+border: 1px solid orange;
+}
+.workedd img{
+height: 200px;
+width: 200px;
+padding-left: 100px;
+padding-top: 20px;
+}
+.workedd{
+width: 25%;
+margin-top: 20px;
+margin-left: 130px;
+}
+.workedd h2{
+color: black;
+padding: 5px 30px 10px 150px;
+}
+.workedd p{
+padding: 0px 100px 10px 120px;
+font-size: 20px;
+}
+button.btn-3 {
+margin: 20px;
+padding: 20px 40px;
+
+
+border: 1px solid orangered;
+}
+
+
+.worked{
+width: 25%;
+
+height: 570px;
+margin-top: 20px;
+margin-left: 50px;
+
+}
+.workeddd{
+margin-top: 20px;
+width: 25%;
+margin-left: 150px;
+}
+.workeddd img{
+margin-top: 20px;
+padding-left: 100px;
+
+}
+.workeddd h2{
+color:black;
+padding-left: 140px;
+margin-top: 10px;
+}
+.workeddd p{
+font-size: 20px;
+padding: 20px 100px 10px 120px;
+}
+.bottom{
+background-color: #171717;
+width: 100%;
+display: flex;
+height: 400px;
+}
+.b1{
+width: 33.33%;
+}
+.b1 h1{
+color: #ff8000;
+font-size: 20px;
+padding-top: 50px;
+padding-left: 150px;
+
+}
+.b1 p{
+padding-top: 10px;
+padding-left: 150px;
+color: white;
+
+}
+.b2{
+width: 33.33%;
+}
+.b2 h1{
+color: #ff8000;
+font-size: 20px;
+padding-top: 50px;
+padding-left: 210px;
+
+}
+.b2 ul li{
+list-style: none;
+padding-left: 210px;
+padding-top: 10px;
+
+}
+.b2 ul li a{
+color: white;
+text-decoration: none;
+}
+.b3{
+width: 33.33%;
+
+}
+.b3 h1{
+color: #ff8000;
+font-size: 20px;
+padding-top: 50px;
+padding-left: 150px;
+
+}
+.b3 p{
+padding-top: 10px;
+padding-left: 150px;
+color: white;
+line-height: 1.8em;
+
+}
+.b3 p a{
+text-decoration: none;
+color: #ff8000;
+}
+.b4{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     padding-right: 110px;
+}
+.container{
+height: 617px;
+width: 100%;
+display: flex;
+}
+.box1{
+height: 617px;
+width: 33.33%;
+}
+.box1 img{
+height: 617px;
+width: 100%;
+}
+.box2{
+height: 617px;
+width: 33.33%;
+background-size: cover;
+background-image:url(https://omninos.shop/lifeManaged/sliderimg2.png);  
+}
+.inbox2 h1 {
+color: white;
+text-align: center;
+padding: 50% 10% 0% 10%;
+line-height: 1.8em;
+}
+.inbox2 {
+height: 617px;
+background-color: black;
+opacity: 0.5;
+color: white;
+display: none;
+
+} 
+.box2:hover .inbox2 {
+display: block;
+}
+.inbox2 button {
+margin-left: 120px;
+margin-top: 20px;
+opacity: 1 !important;
+
+}
+
+.inbox3 h1 {
+color: white;
+text-align: center;
+padding: 50% 10% 0% 10%;
+line-height: 1.8em;
+}
+
+.box3{
+height:617px;
+width: 33.33%;
+background-size: cover;
+background-image: url(https://omninos.shop/lifeManaged/sliderimg3.png);
+
+
+}
+.inbox3{
+height: 617px;
+background-color: black;
+opacity: 0.5;
+color: white;
+display: none;
+
+}
+.box3:hover .inbox3{
+display: block;
+}
+.inbox3 button {
+margin-left: 120px;
+margin-top: 20px;
+}
+.inbox2 button{
+padding: 17px;
+background-color: #ff8000;
+color: white;
+border: none;
+font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 5px;
+margin: 10px;
+cursor: pointer;
+margin-left: 120px;
+
+}
+.inbox3 button{
+padding: 17px;
+background-color: #ff8000;
+color: white;
+border: none;
+font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 5px;
+margin: 10px;
+cursor: pointer;
+margin-left: 120px;
+
+}      
+
+  </style>
 </head>
 <body>
   
